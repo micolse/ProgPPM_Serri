@@ -2,12 +2,192 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>News Clone</title>
+  <title>Clone Il Carlino</title>
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <div class="container top-bar-inner">
+
+    <div class="top-left">
+      QUOTIDIANO NAZIONALE
+    </div>
+
+    <div class="top-right">
+
+      <span>📰</span>
+
+      <span>🔔</span>
+
+      <div class="login">
+        👤 <span>Accedi</span>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+<!-- HEADER PRINCIPALE -->
+<header class="header-main">
+
+  <div class="layout-container header-grid">
+
+    <!-- SINISTRA: ARTICOLO -->
+    <div class="manchette">
+      <div class="manchette-text">
+        <h5>Articolo</h5>
+        <p>scrittore</p>
+      </div>
+      <img src="https://placehold.co/60x60">
+
+    </div>
+
+    <!-- CENTRO: LOGO -->
+    <div class="header-center">
+      <img src="https://placehold.co/592x70">
+    </div>
+
+    <!-- DESTRA: ABBONATI -->
+    <div class="manchette">
+      <div class="manchette-text">
+        <h5>Abbonati</h5>
+        <p>Offerta giornale</p>
+      </div>
+      <img src="https://placehold.co/60x60">
+    </div>
+
+  </div>
+
+</header>
+
+<div class="layout-container trending-topics">
+
+  <span> Bando Spiagge </span>
+  <span> Crans Montana </span>
+  <span> Convento Vendesi </span>
+  <span> Nek </span>
+  <span> Allerta Temporali </span>
+  <span> Sogno </span>
+
+</div>
+
+<!--navbar-->
+<div class="layout-container nav-bar">
+
+  <div class="nav-left">
+
+    <div class="dropdown">CITTÀ</div>
+    <div class="dropdown">MENÙ</div>
+    <div class="dropdown">SPECIALI</div>
+
+    <div>VIDEO</div>
+    <div> ULTIM'ORA <span style="color:red;">●</span> </div>
+
+  </div>
+
+  <div class="nav-right">
+    🔍Ricerca
+  </div>
+
+</div>
+
+  <!-- STICKY HEADER -->
+</header>
+<div class="sticky-header hidden">
+
+  <div class="container sticky-grid">
+
+    <!-- SINISTRA -->
+    <div class="sticky-left">
+      <span>Menu</span>
+      <span class="icon">🔍</span>
+    </div>
+
+    <!-- CENTRO -->
+    <div class="sticky-center">
+      <img src="https://placehold.co/120x40">
+    </div>
+
+    <!-- DESTRA -->
+    <div class="sticky-right">
+      <span>Acquista giornale</span>
+      <span class="icon">🔔</span>
+      <span>Accedi</span>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- CONTENUTO PRINCIPALE -->
+<div class="container">
+
+  <!-- HERO -->
+  <section class="hero">
+    <img src="https://placehold.co/900x400">
+    <h2>Lorem ipsum dolor sit amet</h2>
+  </section>
+
+  <!-- LAYOUT 2 COLONNE -->
+  <div class="main-layout">
+
+    <!-- CONTENUTO -->
+    <main>
+
+      <!-- GRID NOTIZIE -->
+      <section class="news-grid">
+
+        <div>
+          <img src="https://placehold.co/300x200">
+          <h4>Lorem ipsum</h4>
+        </div>
+
+        <div>
+          <img src="https://placehold.co/300x200">
+          <h4>Lorem ipsum</h4>
+        </div>
+
+        <div>
+          <img src="https://placehold.co/300x200">
+          <h4>Lorem ipsum</h4>
+        </div>
+
+      </section>
+
+    </main>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <h3>Trending</h3>
+      <ul>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+      </ul>
+    </aside>
+
+  </div>
+
+</div>
+
+<script>
+  window.addEventListener("scroll", function () {
+    const sticky = document.querySelector(".sticky-header");
+
+    if (window.scrollY > 120) {
+      sticky.classList.add("show");
+    } else {
+      sticky.classList.remove("show");
+    }
+  });
+</script>
 
 </body>
 </html>
