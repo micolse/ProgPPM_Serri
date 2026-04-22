@@ -100,17 +100,17 @@
 </header>
 <div class="sticky-header hidden">
 
-  <div class="container sticky-grid">
+  <div class="layout-container sticky-grid">
 
     <!-- SINISTRA -->
     <div class="sticky-left">
-      <span>Menu</span>
+      <span>Menu ☰</span>
       <span class="icon">🔍</span>
     </div>
 
     <!-- CENTRO -->
     <div class="sticky-center">
-      <img src="https://placehold.co/120x40">
+      <img src="https://placehold.co/338x40">
     </div>
 
     <!-- DESTRA -->
@@ -184,56 +184,141 @@
 
 </div>
 
-<!-- CONTENUTO PRINCIPALE -->
-<div class="container">
+<!-- div -->
+<div class="section-divider"></div>
 
-  <!-- HERO -->
-  <section class="hero">
-    <img src="https://placehold.co/900x400">
-    <h2>Lorem ipsum dolor sit amet</h2>
-  </section>
+<!-- hero -->
+<div class="layout-container featured-news">
 
-  <!-- LAYOUT 2 COLONNE -->
-  <div class="main-layout">
+  <div class="news-left">
 
-    <!-- CONTENUTO -->
-    <main>
+    <div class="news-category">
+      Politica
+    </div>
 
-      <!-- GRID NOTIZIE -->
-      <section class="news-grid">
+    <h2 class="news-title">
+      Titolo principale con
+      <a href="#">link embedded</a>
+    </h2>
 
-        <div>
-          <img src="https://placehold.co/300x200">
-          <h4>Lorem ipsum</h4>
-        </div>
+    <div class="news-author">
+      di Mario Rossi
+    </div>
 
-        <div>
-          <img src="https://placehold.co/300x200">
-          <h4>Lorem ipsum</h4>
-        </div>
+  </div>
 
-        <div>
-          <img src="https://placehold.co/300x200">
-          <h4>Lorem ipsum</h4>
-        </div>
+  <div class="news-right">
+    <img src="https://placehold.co/486x295">
+  </div>
 
-      </section>
+</div>
 
-    </main>
+<!-- div-->
+<div class="section-separator"></div>
 
-    <!-- SIDEBAR -->
-    <aside class="sidebar">
-      <h3>Trending</h3>
-      <ul>
-        <li>Lorem ipsum</li>
-        <li>Lorem ipsum</li>
-        <li>Lorem ipsum</li>
-      </ul>
-    </aside>
+<!-- layout colonne -->
+<div class="layout-container news-grid-section">
+
+  <!-- COLONNA 1 -->
+  <div class="news-card">
+
+    <video controls>
+      <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <div class="card-category">
+      Politica
+    </div>
+
+    <h3 class="card-title">
+      Titolo dell’articolo
+    </h3>
+
+    <p class="card-description">
+      Mini descrizione dell’articolo in poche righe.
+    </p>
+
+    <div class="card-author">
+      di Mario Rossi
+    </div>
+
+  </div>
+
+  <!-- COLONNA 2 -->
+  <div class="news-card">
+
+    <video controls>
+      <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <div class="card-category">
+      Esteri
+    </div>
+
+    <h3 class="card-title">
+      Altro titolo articolo
+    </h3>
+
+    <p class="card-description">
+      Descrizione breve dell’articolo.
+    </p>
+
+    <div class="card-author">
+      di Luca Bianchi
+    </div>
+
+  </div>
+
+  <!-- COLONNA 3 -->
+  <div class="side-news-column">
+
+    <div class="side-news">
+
+      <div class="card-category">
+        Cronaca
+      </div>
+
+      <h3 class="card-title">
+        Titolo articolo laterale
+      </h3>
+
+      <p class="card-description">
+        Mini descrizione breve della notizia.
+      </p>
+
+      <div class="card-author">
+        di Mario Rossi
+      </div>
+
+    </div>
+
+    <div class="side-news">
+
+      <div class="card-category">
+        Esteri
+      </div>
+
+      <h3 class="card-title">
+        Seconda notizia laterale
+      </h3>
+
+      <p class="card-description">
+        Breve testo della seconda news.
+      </p>
+
+      <div class="card-author">
+        di Luca Bianchi
+      </div>
+
+    </div>
 
   </div>
 
 </div>
+
+<!-- pie di pagina -->
+
+
 
 <script>
   window.addEventListener("scroll", function () {
