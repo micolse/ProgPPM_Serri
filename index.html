@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Clone Il Carlino</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -13,75 +14,72 @@
 
 <body>
 
-<!-- TOP BAR -->
-<div class="top-bar">
-  <div class="container top-bar-inner">
+<header>
+  <section class="top-bar">
+    <div class="container top-bar-inner">
 
-    <div class="top-left">
-      <img src="https://placehold.co/171x15" alt="Quotidiano Nazionale">
-    </div>
+      <div class="top-left">
+        <a href="#"><img class="logo-quot" src="img/171x15.png" alt="Titolo"></a>
+        <div class="header-mobile-logo">
+          <a href="#"><img src="img/173x19.png" alt="logo mobile"></a>
+        </div>
+      </div>
 
-    <div class="top-right">
-      <span><i class="bi bi-newspaper"></i></span>
-      <span class="bell">
-        <i class="bi bi-bell"></i></span>
-      <div class="login">
-        <i class="bi bi-person"></i> <span>Accedi</span>
+      <div class="top-right">
+        <div class="top-icons">
+          <a href="#" aria-label="Edicola"><span class="newspaper"><i class="bi bi-newspaper"></i></span></a>
+          <a href="#" aria-label="campanella"><span class="bell"><i class="bi bi-bell"></i></span></a>
+          <a href="#" aria-label="login" class="login">
+            <i class="bi bi-person">
+            </i><span>Accedi</span>
+          </a>
+        </div>
+        <a href="#"><button class="mobile-subscribe">Abbonati</button></a>
       </div>
 
     </div>
+  </section>
 
-  </div>
-</div>
+  <section class="header-main">
 
-<!-- HEADER PRINCIPALE -->
-<header class="header-main">
+    <div class="layout-container header-grid">
 
-  <div class="layout-container header-grid">
-
-    <!-- SINISTRA: ARTICOLO -->
-    <div class="manchette">
-      <div class="manchette-text">
-        <h5>Articolo</h5>
-        <p>scrittore</p>
-      </div>
-      <img src="https://placehold.co/60x60">
+      <a href="#" class="manchette">
+        <div class="manchette-text">
+          <h5>Lorem Ipsum</h5>
+          <p>Autore</p>
+        </div>
+        <img src="img/60x60.png" alt="img articolo manchette 1">
+      </a>
+      <a href="#" class="header-center">
+        <img src="img/592x65.png" alt="logo pagina">
+      </a>
+      <a href="#" class="manchette">
+        <div class="manchette-text">
+          <h5>Abbonati</h5>
+          <p>Offerta giornale</p>
+        </div>
+        <img src="img/60x60.png" alt="img articolo manchette 2">
+      </a>
 
     </div>
+  </section>
 
-    <!-- CENTRO: LOGO -->
-    <div class="header-center">
-      <img src="https://placehold.co/592x65">
-    </div>
-
-    <!-- DESTRA: ABBONATI -->
-    <div class="manchette">
-      <div class="manchette-text">
-        <h5>Abbonati</h5>
-        <p>Offerta giornale</p>
-      </div>
-      <img src="https://placehold.co/60x60">
-    </div>
-
-  </div>
+  <a href="#" class="layout-container trending-topics">
+   <span> Lorem Ipsum </span>
+   <span> Lorem Ipsum </span>
+    <span> Lorem Ipsum </span>
+   <span> Lorem Ipsum </span>
+    <span> Lorem Ipsum </span>
+    <span> Lorem Ipsum </span>
+  </a>
 
 </header>
 
-<div class="layout-container trending-topics">
 
-  <span> Bando Spiagge </span>
-  <span> Crans Montana </span>
-  <span> Convento Vendesi </span>
-  <span> Nek </span>
-  <span> Allerta Temporali </span>
-  <span> Sogno </span>
+<nav class="layout-container nav-bar">
 
-</div>
-
-<!--navbar-->
-<div class="layout-container nav-bar">
-
-  <div class="nav-left">
+  <section class="nav-left">
     <div class="dropdown">
       <div class="dropdown-trigger">
         CITTÀ
@@ -99,256 +97,222 @@
           </div>
 
           <div class="cities-grid">
-
-            <div class="city-item">
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
-
-            <div class="city-item">
+            </a>
+            <a href="#" class="city-item">
               città
               <i class="bi bi-chevron-right"></i>
-            </div>
+            </a>
+            <a href="#" class="city-item">
+              città
+              <i class="bi bi-chevron-right"></i>
+            </a>
+            <a href="#" class="city-item">
+              città
+              <i class="bi bi-chevron-right"></i>
+            </a>
+            <a href="#" class="city-item">
+              città
+              <i class="bi bi-chevron-right"></i>
+            </a>
+            <a href="#" class="city-item">
+              città
+              <i class="bi bi-chevron-right"></i>
+            </a>
 
           </div>
 
@@ -370,49 +334,50 @@
           <i class="bi bi-x close-icon"></i>
 
           <div class="menu-columns">
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
+            <div class="menu-section"> Sezione </div>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
 
           </div>
 
           <div class="news-col-menù">
-            <div class="news-card-menù">
-              <img src="https://placehold.co/219x123" alt="">
-              <div class="news-title-menù">Titolo notizia</div>
-              <div class="news-desc-menù">Descrizione breve della notizia...</div>
-            </div>
+            <a href="#" class="news-card-menù">
+              <img src="img/219x123.png" alt="img articolo colonna news 1">
+              <div class="news-title-menù">Lorem Ipsum</div>
+              <div class="news-desc-menù">Lorem ipsum dolor sit amet...</div>
+            </a>
 
-            <div class="news-card-menù">
-              <img src="https://placehold.co/219x123" alt="">
-              <div class="news-title-menù">Titolo notizia</div>
-              <div class="news-desc-menù">Descrizione breve della notizia...</div>
-            </div>
+            <a href="#" class="news-card-menù">
+              <img src="img/219x123.png" alt="img articolo colonna news 2">
+              <div class="news-title-menù">Lorem Ipsum</div>
+              <div class="news-desc-menù">Lorem ipsum dolor sit amet...</div>
+            </a>
 
           </div>
 
@@ -422,7 +387,7 @@
 
     </div>
 
-    <div class="dropdown">
+    <div class="dropdown dropdown-speciali">
       <div class="dropdown-trigger">
         SPECIALI
         <i class="bi bi-chevron-down"></i>
@@ -433,19 +398,17 @@
         <div class="dropdown-inner speciali-inner">
 
           <div class="speciali-columns">
-
-            <div class="menu-item-speciali">Speciale 1 <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item-speciali">Speciale 2 <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item-speciali">Speciale 3 <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item-speciali">Speciale 1 <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item-speciali">Speciale 2 <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item-speciali">Speciale 3 <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item-speciali">Speciale 1 <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item-speciali">Speciale 2 <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item-speciali">Speciale 3 <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item-speciali">Speciale 1 <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item-speciali">Speciale 2 <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item-speciali">Speciale 3 <i class="bi bi-chevron-right"></i></div>
+            <a href="#" class="menu-item-speciali">Lorem Impsum<i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item-speciali">Lorem Impsum<i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item-speciali">Lorem Impsum<i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item-speciali">Lorem Impsum<i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item-speciali">Lorem Impsum<i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item-speciali">Lorem Impsum<i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item-speciali">Lorem Impsum<i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item-speciali">Lorem Impsum<i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item-speciali">Lorem Impsum<i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item-speciali">Lorem Impsum<i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item-speciali">Lorem Impsum<i class="bi bi-chevron-right"></i></a>
 
           </div>
 
@@ -466,8 +429,8 @@
           <i class="bi bi-x close-icon"></i>
 
           <div class="ultimora-grid">
-            <div class="ultimora-item">
 
+            <a href="#" class="ultimora-item">
               <div class="ultimora-top">
                 <span class="live-dot"></span>
                 <span class="ultimora-label">ULTIM'ORA</span>
@@ -476,7 +439,7 @@
               <div class="ultimora-bottom">
 
                 <div class="ultimora-title">
-                  Titolo della notizia live
+                  Lorem Ipsum
                 </div>
 
                 <div class="ultimora-link">
@@ -486,10 +449,9 @@
 
               </div>
 
-            </div>
+            </a>
 
-            <div class="ultimora-item">
-
+            <a href="#" class="ultimora-item">
               <div class="ultimora-top">
                 <span class="live-dot"></span>
                 <span class="ultimora-label">ULTIM'ORA</span>
@@ -498,7 +460,7 @@
               <div class="ultimora-bottom">
 
                 <div class="ultimora-title">
-                  Titolo della notizia live
+                  Lorem Ipsum
                 </div>
 
                 <div class="ultimora-link">
@@ -508,10 +470,9 @@
 
               </div>
 
-            </div>
+            </a>
 
-            <div class="ultimora-item">
-
+            <a href="#" class="ultimora-item">
               <div class="ultimora-top">
                 <span class="live-dot"></span>
                 <span class="ultimora-label">ULTIM'ORA</span>
@@ -520,8 +481,7 @@
               <div class="ultimora-bottom">
 
                 <div class="ultimora-title">
-                  Titolo della notizia live
-                  titolo titolo
+                  Lorem Ipsum
                 </div>
 
                 <div class="ultimora-link">
@@ -531,7 +491,7 @@
 
               </div>
 
-            </div>
+            </a>
 
           </div>
 
@@ -539,600 +499,641 @@
 
       </div>
     </div>
+  </section>
 
-  </div>
+  <section>
+    <a href="#" class="nav-right">
+      <i class="bi bi-search"></i>
+       Ricerca
+    </a>
+  </section>
+</nav>
 
-  <div class="nav-right">
-    <i class="bi bi-search"></i>
-     Ricerca
-  </div>
-
-</div>
-
-  <!-- STICKY HEADER -->
-<div class="sticky-header hidden">
+<section class="sticky-header hidden">
 
   <div class="layout-container sticky-grid">
 
-    <!-- SINISTRA -->
     <div class="sticky-left sticky-dropdown-wrapper">
-      <span class="dropdown-trigger">Menu ☰</span>
+      <span class="dropdown-trigger menu">MENU ☰</span>
 
       <div class="sticky-dropdown">
-
         <div class="dropdown-inner menu-layout">
-
+          <i class="bi bi-x close-icon"></i>
           <div class="menu-columns">
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
-            <div class="menu-item">Titolo <i class="bi bi-chevron-right"></i></div>
+            <div class="menu-section"> Sezione </div>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
+            <a href="#" class="menu-item">Lorem Ipsum <i class="bi bi-chevron-right"></i></a>
 
           </div>
 
           <div class="news-col-menù">
-            <div class="news-card-menù">
-              <img src="https://placehold.co/219x123" alt="">
-              <div class="news-title-menù">Titolo notizia</div>
-              <div class="news-desc-menù">Descrizione breve della notizia...</div>
-            </div>
+            <a href="#" class="news-card-menù">
+              <img src="img/219x123.png" alt="img articolo colonna menù 1">
+              <div class="news-title-menù">Lorem Ipsum</div>
+              <div class="news-desc-menù">Lorem Ipsum dolor sit amet...</div>
+            </a>
 
-            <div class="news-card-menù">
-              <img src="https://placehold.co/219x123" alt="">
-              <div class="news-title-menù">Titolo notizia</div>
-              <div class="news-desc-menù">Descrizione breve della notizia...</div>
-            </div>
-
+            <a href="#" class="news-card-menù">
+              <img src="img/219x123.png" alt="img articolo colonna menù 2">
+              <div class="news-title-menù">Lorem Ipsum</div>
+              <div class="news-desc-menù">Lorem Ipsum dolor sit amet...</div>
+            </a>
           </div>
-
         </div>
-
       </div>
 
-      <span class="icon"><i class="bi bi-search"></i></span>
+      <a href="#" aria-label="icona ricerca" class="icon"><i class="bi bi-search"></i></a>
 
     </div>
 
-    <!-- CENTRO -->
-    <div class="sticky-center">
-      <img src="https://placehold.co/338x40">
-    </div>
+    <a href="#" class="sticky-center">
+      <img src="img/338x40.png" alt="logo sticky">
+    </a>
 
-    <!-- DESTRA -->
     <div class="sticky-right">
-      <span>Acquista giornale</span>
-      <span class="icon"><i class="bi bi-bell"></i></span>
-      <span>Accedi</span>
+      <a href="#"><span>Acquista giornale</span></a>
+      <a href="#" aria-label="icona campanella"><span class="icon"><i class="bi bi-bell"></i></span></a>
+      <a href="#"><span>Accedi</span></a>
     </div>
 
   </div>
 
+</section>
 
-</div>
-
-<!-- floating campanella -->
-<div class="floating-bell">
+<a href="#" aria-label="accedi per notifiche" class="floating-bell">
   <span class="bell-icon"><i class="bi bi-bell"></i></span>
   <span class="bell-text">Accedi per attivare le notifiche</span>
-</div>
+</a>
 
-<!-- piu letti -->
-<div class="layout-container most-read">
+<main>
+  <section class="layout-container most-read most-read--primary">
 
-  <div class="section-title">
-    <span class="title-icon"><i class="bi bi-graph-up"></i></span>
-    I più letti
-  </div>
-
-  <div class="articles-row">
-
-    <div class="card">
-      <div class="image-wrapper">
-        <img src="https://placehold.co/200x115">
-        <span class="icon-top-right"><i class="bi bi-graph-up"></i></span>
-      </div>
-      <p class="desc_card">Titolo articolo</p>
+    <div class="section-title">
+      <span class="title-icon"><i class="bi bi-graph-up"></i></span>
+      I più letti
     </div>
 
-    <div class="card">
-      <div class="image-wrapper">
-        <img src="https://placehold.co/200x115">
-        <span class="icon-top-right"><i class="bi bi-graph-up"></i></span>
-      </div>
-      <p class="desc_card">Titolo articolo</p>
-    </div>
+    <div class="articles-row">
 
-    <div class="card">
-      <div class="image-wrapper">
-        <img src="https://placehold.co/200x115">
-        <span class="icon-top-right"><i class="bi bi-graph-up"></i></span>
-      </div>
-      <p class="desc_card">Titolo articolo</p>
-    </div>
-
-    <div class="card">
-      <div class="image-wrapper">
-        <img src="https://placehold.co/200x115">
-        <span class="icon-top-right"><i class="bi bi-graph-up"></i></span>
-      </div>
-      <p class="desc_card">Titolo articolo</p>
-    </div>
-
-    <div class="card">
-      <div class="image-wrapper">
-        <img src="https://placehold.co/200x115">
-        <span class="icon-top-right"><i class="bi bi-graph-up"></i></span>
-      </div>
-      <p class="desc_card">Titolo articolo</p>
-    </div>
-
-  </div>
-
-</div>
-
-<!-- div -->
-<div class="section-divider"></div>
-
-<!-- div-->
-<div class="section-separator"></div>
-
-<!-- breaking bar-->
-<div class="breaking-bar">
-
-  <div class="breaking-left">
-
-    <span class="dot"></span>
-
-    <span class="label">ULTIM’ORA</span>
-
-    <span class="sep">|</span>
-
-    <span class="desc">
-      Qui va la descrizione della notizia
-    </span>
-
-  </div>
-
-  <div class="breaking-right">
-    LEGGI TUTTI
-  </div>
-
-</div>
-
-<!-- div -->
-<div class="section-separator"></div>
-
-<!-- hero -->
-<div class="layout-container featured-news">
-
-  <div class="news-left">
-
-    <div class="news-category">
-      Politica
-    </div>
-
-    <h2 class="news-title">
-      Titolo principale con qualcosa
-    </h2>
-
-    <div class="news-author">
-      di Mario Rossi
-    </div>
-
-    <div class="news-links">
-
-      <a href="#" class="news-link">
-        <span class="prefix">Articolo/</span>
-        <span class="text">Descrizione primo articolo pi pi pi pi pi pi pi pi</span>
+      <a href="#" class="card">
+        <div class="image-wrapper">
+          <img src="img/200x115.png" alt="img articolo card 1">
+          <span class="icon-top-right"><i class="bi bi-graph-up"></i></span>
+        </div>
+        <p class="desc_card">Lorem Ipsum</p>
       </a>
 
-      <a href="#" class="news-link">
-        <span class="prefix">Articolo/</span>
-        <span class="text">Descrizione secondo articolo</span>
+      <a href="#" class="card">
+        <div class="image-wrapper">
+          <img src="img/200x115.png" alt="img articolo card 2">
+          <span class="icon-top-right"><i class="bi bi-graph-up"></i></span>
+        </div>
+        <p class="desc_card">Lorem Ipsum</p>
+      </a>
+
+      <a href="#" class="card">
+        <div class="image-wrapper">
+          <img src="img/200x115.png" alt="img articolo card 3">
+          <span class="icon-top-right"><i class="bi bi-graph-up"></i></span>
+        </div>
+        <p class="desc_card">Lorem Ipsum</p>
+      </a>
+
+      <a href="#" class="card">
+        <div class="image-wrapper">
+          <img src="img/200x115.png" alt="img articolo card 4">
+          <span class="icon-top-right"><i class="bi bi-graph-up"></i></span>
+        </div>
+        <p class="desc_card">Lorem Ipsum</p>
+      </a>
+
+      <a href="#" class="card">
+        <div class="image-wrapper">
+          <img src="img/200x115.png" alt="img articolo card 5">
+          <span class="icon-top-right"><i class="bi bi-graph-up"></i></span>
+        </div>
+        <p class="desc_card">Lorem Ipsum</p>
       </a>
 
     </div>
+  </section>
 
+  <div class="section-divider"></div>
 
-  </div>
+  <div class="section-separator"></div>
 
-  <div class="news-right">
-    <img src="https://placehold.co/486x295">
-  </div>
+  <section class="breaking-bar">
 
-</div>
+    <a href="#" class="breaking-left">
 
-<!-- div-->
-<div class="section-separator"></div>
+      <span class="dot"></span>
 
-<!-- layout colonne -->
-<div class="layout-container news-grid-section">
+      <span class="label">ULTIM’ORA</span>
 
-  <!-- COLONNA 1 -->
-  <div class="news-card">
+      <span class="sep">|</span>
 
-    <video controls>
-      <source src="video.mp4" type="video/mp4">
-    </video>
+      <span class="desc">
+        Lorem Ipsum dolor sit amet
+      </span>
 
-    <div class="card-category">
-      Politica
-    </div>
+    </a>
 
-    <h3 class="card-title">
-      Titolo dell’articolo
-    </h3>
+    <a href="#" class="breaking-right">
+      LEGGI TUTTI
+    </a>
+  </section>
 
-    <p class="card-description">
-      Mini descrizione dell’articolo in poche righe. la la la la la la la la la la
-    </p>
+  <div class="section-separator"></div>
 
-    <div class="card-author">
-      di Mario Rossi
-    </div>
+  <section class="layout-container featured-news">
 
-  </div>
+    <div class="news-left">
 
-  <!-- COLONNA 2 -->
-  <div class="news-card">
+      <h1><a href="#" class="news-category">
+        LOREM IPSUM
+      </a></h1>
 
-    <video controls>
-      <source src="video.mp4" type="video/mp4">
-    </video>
+      <h2><a href="#" class="news-title">
+        Lorem Ipsum dolor sit amet
+      </a></h2>
 
-    <div class="card-category">
-      Esteri
-    </div>
-
-    <h3 class="card-title">
-      Altro titolo articolo
-    </h3>
-
-    <p class="card-description">
-      Descrizione breve dell’articolo.
-    </p>
-
-    <div class="card-author">
-      di Luca Bianchi
-    </div>
-
-  </div>
-
-  <!-- COLONNA 3 -->
-  <div class="side-news-column">
-
-    <div class="side-news">
-
-      <div class="card-category">
-        Cronaca
-      </div>
-
-      <h3 class="card-title">
-        Titolo articolo laterale
+      <h3 class="news-author">
+        Autore
       </h3>
 
+      <div class="news-links">
+        <a href="#" class="news-link">
+          <span class="prefix">Articolo/</span>
+          <span class="text">Lorem Ipsum</span>
+        </a>
+
+        <a href="#" class="news-link">
+          <span class="prefix">Articolo/</span>
+          <span class="text">Lorem Ipsum</span>
+        </a>
+
+      </div>
+
+
+    </div>
+
+    <a href="#" class="news-right">
+      <img src="img/486x295.png" alt="img articolo news destra 1">
+    </a>
+  </section>
+
+  <div class="section-separator"></div>
+
+  <section class="layout-container news-grid-section">
+
+    <div class="news-card">
+
+      <a href="#" aria-label="video" class="video-link">
+        <img src="img/321x172.png" alt="Anteprima video notizia 1">
+      </a>
+
+      <a href="#" class="card-category">
+        LOREM IPSUM
+      </a>
+
+      <a href="#" class="card-title">
+        Lorem Ipsum dolor sit amet
+      </a>
+
       <p class="card-description">
-        Mini descrizione breve della notizia.
+        Lorem Ipsum dolor sit amet, consectetur adipiscing elit
       </p>
 
       <div class="card-author">
-        di Mario Rossi
+        Autore
       </div>
 
     </div>
 
-    <div class="side-news">
+    <div class="news-card">
 
-      <div class="card-category">
-        Esteri
-      </div>
+      <a href="#" aria-label="video" class="video-link">
+        <img src="img/321x172.png" alt="Anteprima video notizia 2">
+      </a>
 
-      <h3 class="card-title">
-        Seconda notizia laterale
-      </h3>
+      <a href="#" class="card-category">
+        LOREM IPSUM
+      </a>
+
+      <a href="#" class="card-title">
+        Lorem Ipsum dolor sit amet
+      </a>
 
       <p class="card-description">
-        Breve testo della seconda news. breve breve breve breve breve breve breve breve
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit
       </p>
 
       <div class="card-author">
-        di Luca Bianchi
+        Autore
       </div>
+    </div>
+
+    <div class="side-news-column">
+
+      <div class="side-news">
+        <img class="side-news-img" src="img/600x400.png" alt="articolo di giornal">
+
+        <a href="#" class="card-category">
+          LOREM IPSUM
+        </a>
+
+        <a href="#">
+          <h3 class="card-title">
+            Lorem Ipsum dolor sit amet
+          </h3>
+        </a>
+
+        <p class="card-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </p>
+
+        <div class="card-author">
+          Autore
+        </div>
+      </div>
+
+      <div class="side-news">
+        <a href="#" aria-label="apri articolo">
+          <img class="side-news-img" src="img/600x400.png" alt="panoramica relativa all'articolo">
+        </a>
+        <a href="#" class="card-category">
+          LOREM IPSUM
+        </a>
+
+        <a href="#">
+          <h3 class="card-title">
+            Lorem Ipsum dolor sit amet
+          </h3>
+        </a>
+
+        <p class="card-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </p>
+
+        <div class="card-author">
+          Autore
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <div class="section-separator"></div>
+
+  <div class="layout-container featured-news hero-secondary">
+
+    <section class="news-left">
+
+      <h1><a href="#" class="news-category">
+        LOREM IPSUM
+      </a></h1>
+
+      <h2 class="news-title">
+        <a href="#"> Lorem Ipsum dolor sit amet </a>
+        <span class="slash"> / </span>
+        <a href="#">Lorem Ipsum</a>
+        <span class="slash"> / </span>
+        <a href="#">Lorem Ipsum</a>
+      </h2>
+
+      <h3 class="news-author">
+        Autore
+      </h3>
+
+    </section>
+
+    <a href="#" class="news-right">
+      <img src="img/486x295.png" alt="img articolo news destra 2">
+    </a>
+
+  </div>
+
+  <div class="section-separator"></div>
+
+  <section class="cities-widget">
+
+    <div class="cities-header">
+      <h2>Dalle città</h2>
+    </div>
+
+    <div class="cities-content">
+
+      <a href="#" class="cities-main">
+
+        <img src="img/608x342.png" alt="img articolo città 1">
+
+        <div class="city-name">CITTÀ</div>
+
+        <h3 class="city-title">Lorem Ipsum</h3>
+
+        <p class="city-desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+
+      </a>
+
+      <div class="cities-side">
+        <div class="slide">
+          <a href="#" class="side-item">
+            <img src="img/120x120.png" alt="img articolo città 2">
+            <div>
+              <div class="side-city">CITTÀ</div>
+              <div class="side-title">Lorem ipsum dolor sit amet</div>
+            </div>
+          </a>
+          <a href="#" class="side-item">
+            <img src="img/120x120.png" alt="img articolo città 3">
+            <div>
+              <div class="side-city">CITTÀ</div>
+              <div class="side-title">Lorem ipsum dolor sit amet</div>
+            </div>
+          </a>
+          <a href="#" class="side-item">
+            <img src="img/120x120.png" alt="img articolo città 4">
+            <div>
+              <div class="side-city">CITTÀ</div>
+              <div class="side-title">Lorem ipsum dolor sit amet</div>
+            </div>
+          </a>
+          <a href="#" class="side-item">
+            <img src="img/120x120.png" alt="img articolo città 5">
+            <div>
+              <div class="side-city">CITTÀ</div>
+              <div class="side-title">Lorem ipsum dolor sit amet</div>
+            </div>
+          </a>
+          <div class="cities-arrows">
+            <button>‹</button>
+            <button>›</button>
+          </div>
+        </div>
+        <div class="slide">
+          <a href="#" class="side-item">
+            <img src="img/120x120.png" alt="img articolo città 6">
+            <div>
+              <div class="side-city">CITTÀ</div>
+              <div class="side-title">Lorem ipsum dolor sit amet</div>
+            </div>
+          </a>
+          <a href="#" class="side-item">
+            <img src="img/120x120.png" alt="img articolo città 7">
+            <div>
+              <div class="side-city">CITTÀ</div>
+              <div class="side-title">Lorem ipsum dolor sit amet</div>
+            </div>
+          </a>
+          <a href="#" class="side-item">
+            <img src="img/120x120.png" alt="img articolo città 8">
+            <div>
+              <div class="side-city">CITTÀ</div>
+              <div class="side-title">Lorem ipsum dolor sit amet</div>
+            </div>
+          </a>
+          <a href="#" class="side-item">
+            <img src="img/120x120.png" alt="img articolo città 9">
+            <div>
+              <div class="side-city">CITTÀ</div>
+              <div class="side-title">Lorem ipsum dolor sit amet</div>
+            </div>
+          </a>
+          <div class="cities-arrows">
+            <button>‹</button>
+            <button>›</button>
+          </div>
+        </div>
+
+        <div class="slide">
+          <a href="#" class="side-item">
+            <img src="img/120x120.png" alt="img articolo città 10">
+            <div>
+              <div class="side-city">CITTÀ</div>
+              <div class="side-title">Lorem ipsum dolor sit amet</div>
+            </div>
+          </a>
+          <a href="#" class="side-item">
+            <img src="img/120x120.png" alt="img articolo città 11">
+            <div>
+              <div class="side-city">CITTÀ</div>
+              <div class="side-title">Lorem ipsum dolor sit amet</div>
+            </div>
+          </a>
+          <a href="#" class="side-item">
+            <img src="img/120x120.png" alt="img articolo città 12">
+            <div>
+              <div class="side-city">CITTÀ</div>
+              <div class="side-title">Lorem ipsum dolor sit amet</div>
+            </div>
+          </a>
+          <a href="#" class="side-item">
+            <img src="img/120x120.png" alt="img articolo città 13">
+            <div>
+              <div class="side-city">CITTÀ</div>
+              <div class="side-title">Lorem ipsum dolor sit amet</div>
+            </div>
+          </a>
+          <div class="cities-arrows">
+            <button>‹</button>
+            <button>›</button>
+          </div>
+        </div>
+
+        <div class="slide">
+          <a href="#" class="side-item">
+            <img src="img/120x120.png" alt="img articolo città 14">
+            <div>
+              <div class="side-city">CITTÀ</div>
+              <div class="side-title">Lorem ipsum dolor sit amet</div>
+            </div>
+          </a>
+          <a href="#" class="side-item">
+            <img src="img/120x120.png" alt="img articolo città 15">
+            <div>
+              <div class="side-city">CITTÀ</div>
+              <div class="side-title">Lorem ipsum dolor sit amet</div>
+            </div>
+          </a>
+          <div class="cities-arrows">
+            <button>‹</button>
+            <button>›</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="layout-container most-read most-read--secondary">
+
+    <div class="section-title">
+      <span class="title-icon"><i class="bi bi-graph-up"></i></span>
+      I più letti
+    </div>
+
+    <div class="articles-row">
+
+      <a href="#" class="card">
+        <div class="image-wrapper">
+          <img src="img/200x115.png" alt="img articolo card 6">
+          <span class="icon-top-right"><i class="bi bi-graph-up"></i></span>
+        </div>
+        <p class="desc_card">Lorem ipsum dolor sit amet</p>
+      </a>
+
+      <a href="#" class="card">
+        <div class="image-wrapper">
+          <img src="img/200x115.png" alt="img articolo card 7">
+          <span class="icon-top-right"><i class="bi bi-graph-up"></i></span>
+        </div>
+        <p class="desc_card">Lorem ipsum dolor sit amet</p>
+      </a>
+
+      <a href="#" class="card">
+        <div class="image-wrapper">
+          <img src="img/200x115.png" alt="img articolo card 8">
+          <span class="icon-top-right"><i class="bi bi-graph-up"></i></span>
+        </div>
+        <p class="desc_card">Lorem ipsum dolor sit amet</p>
+      </a>
+
+      <a href="#" class="card">
+        <div class="image-wrapper">
+          <img src="img/200x115.png" alt="img articolo card 9">
+          <span class="icon-top-right"><i class="bi bi-graph-up"></i></span>
+        </div>
+        <p class="desc_card">Lorem ipsum dolor sit amet</p>
+      </a>
+
+      <a href="#" class="card">
+        <div class="image-wrapper">
+          <img src="img/200x115.png" alt="img articolo card 10">
+          <span class="icon-top-right"><i class="bi bi-graph-up"></i></span>
+        </div>
+        <p class="desc_card">Lorem ipsum dolor sit amet</p>
+      </a>
 
     </div>
 
   </div>
+</main>
 
-</div>
+  <div class="section-divider2"></div>
 
-<!-- div-->
-<div class="section-separator"></div>
-
-<!-- secondo hero -->
-<div class="layout-container featured-news hero-secondary">
-
-  <div class="news-left">
-
-    <div class="news-category">
-      Esteri
-    </div>
-
-    <h2 class="news-title">
-      Titolo principale secondo hero con
-      <span class="slash"> / </span>
-      <a href="#">link con descrizione 1</a>
-      <span class="slash"> / </span>
-      <a href="#">link con descrizione 2</a>
-    </h2>
-
-    <div class="news-author">
-      di Luca Bianchi
-    </div>
-
-  </div>
-
-  <div class="news-right">
-    <img src="https://placehold.co/486x295">
-  </div>
-
-</div>
-
-<!-- div-->
-<div class="section-separator"></div>
-
-<!-- città -->
-<div class="cities-widget">
-
-  <div class="cities-header">
-    <h2>Dalle città</h2>
-
-    <div class="cities-arrows">
-      <button>‹</button>
-      <button>›</button>
-    </div>
-  </div>
-
-  <div class="cities-content">
-
-    <!-- LEFT BIG ARTICLE -->
-    <div class="cities-main">
-
-      <img src="https://placehold.co/608x342">
-
-      <div class="city-name">Roma</div>
-
-      <h3 class="city-title">Titolo principale della città</h3>
-
-      <p class="city-desc">
-        Testo descrizione articolo principale
-      </p>
-
-    </div>
-
-    <!-- RIGHT LIST -->
-    <div class="cities-side">
-      <div class="slide">
-        <div class="side-item">
-          <img src="https://placehold.co/120x120">
-          <div>
-            <div class="side-city">Milano</div>
-            <div class="side-title">Titolo articolo breve</div>
-          </div>
-        </div>
-        <div class="side-item">
-          <img src="https://placehold.co/120x120">
-          <div>
-            <div class="side-city">Brescia</div>
-            <div class="side-title">Titolo articolo breve</div>
-          </div>
-        </div>
-        <div class="side-item">
-          <img src="https://placehold.co/120x120">
-          <div>
-            <div class="side-city">Pescara</div>
-            <div class="side-title">Titolo articolo breve</div>
-          </div>
-        </div>
-        <div class="side-item">
-          <img src="https://placehold.co/120x120">
-          <div>
-            <div class="side-city">Latina</div>
-            <div class="side-title">Titolo articolo breve</div>
-          </div>
-        </div>
-      </div>
-      <div class="slide">
-        <div class="side-item">
-          <img src="https://placehold.co/120x120">
-          <div>
-            <div class="side-city">Torino</div>
-            <div class="side-title">Titolo articolo breve</div>
-          </div>
-        </div>
-        <div class="side-item">
-          <img src="https://placehold.co/120x120">
-          <div>
-            <div class="side-city">Bergamo</div>
-            <div class="side-title">Titolo articolo breve</div>
-          </div>
-        </div>
-        <div class="side-item">
-          <img src="https://placehold.co/120x120">
-          <div>
-            <div class="side-city">Como</div>
-            <div class="side-title">Titolo articolo breve</div>
-          </div>
-        </div>
-        <div class="side-item">
-          <img src="https://placehold.co/120x120">
-          <div>
-            <div class="side-city">Livorno</div>
-            <div class="side-title">Titolo articolo breve</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="slide">
-        <div class="side-item">
-          <img src="https://placehold.co/120x120">
-          <div>
-            <div class="side-city">Napoli</div>
-            <div class="side-title">Titolo articolo breve</div>
-          </div>
-        </div>
-        <div class="side-item">
-          <img src="https://placehold.co/120x120">
-          <div>
-            <div class="side-city">Udine</div>
-            <div class="side-title">Titolo articolo breve</div>
-          </div>
-        </div>
-        <div class="side-item">
-          <img src="https://placehold.co/120x120">
-          <div>
-            <div class="side-city">Mantova</div>
-            <div class="side-title">Titolo articolo breve</div>
-          </div>
-        </div>
-        <div class="side-item">
-          <img src="https://placehold.co/120x120">
-          <div>
-            <div class="side-city">Ferrara</div>
-            <div class="side-title">Titolo articolo breve</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="slide">
-        <div class="side-item">
-          <img src="https://placehold.co/120x120">
-          <div>
-            <div class="side-city">Firenze</div>
-            <div class="side-title">Titolo articolo breve</div>
-          </div>
-        </div>
-        <div class="side-item">
-          <img src="https://placehold.co/120x120">
-          <div>
-            <div class="side-city">Bologna</div>
-            <div class="side-title">Titolo articolo breve</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-</div>
-
-<!-- div -->
-<div class="section-divider2"></div>
-
-<!-- pie di pagina -->
 <footer class="site-footer">
+   <div class="footer-container">
+     <div class="footer-circle">
+       <span class="footer-logo">Logo</span>
+     </div>
 
-  <div class="footer-container">
-    <div class="footer-circle">
-      <span class="footer-logo">Logo</span>
-    </div>
+     <div class="footer-rect"></div>
 
-    <div class="footer-rect"></div>
+     <section class="footer-main">
 
-    <div class="footer-main">
+       <section class="footer-main-row">
 
-      <div class="footer-main-row">
+         <span class="footer-logo-main">Logo</span>
 
-        <span class="footer-logo-main">Logo</span>
+         <a href="#" class="footer-main-text">
+           <img src="img/203x26.png" alt="Logo giornale principale">
+         </a>
 
-        <span class="footer-main-text">
-          <img src="https://placehold.co/203x26" alt="Logo giornale">
-        </span>
+       </section>
+
+       <section class="footer-main-desc">
+         <strong>Società1</strong> lorem ipsum <strong>Società2</strong>
+       </section>
+
+       <section class="footer-main-titles">
+         <a href="#"><img src="img/130x17.png" alt="logo giornale 1"></a>
+         <a href="#"><img src="img/185x17.png" alt="logo giornale 2"></a>
+         <a href="#"><img src="img/116x19.png" alt="logo giornale 3"></a>
+         <a href="#"><img src="img/142x17.png" alt="logo giornale 4"></a>
+         <a href="#"><img src="img/52x31.png" alt="logo giornale 5"></a>
+         <a href="#"><img src="img/102x17.png" alt="logo giornale 6"></a>
+         <a href="#"><img src="img/81x17.png" alt="logo giornale 7"></a>
+       </section>
+     </section>
+
+     <section class="footer-links">
+
+        <div class="links-col">
+          <div class="links-title">SEZIONE</div>
+          <a href="#">Lorem Ipsum</a>
+          <a href="#">Lorem Ipsum</a>
+          <a href="#">Lorem Ipsum</a>
+        </div>
+
+        <div class="links-col">
+          <div class="links-title">SEZIONE</div>
+          <a href="#">Lorem Ipsum</a>
+          <a href="#">Lorem Ipsum</a>
+          <a href="#">Lorem Ipsum</a>
+        </div>
+
+        <div class="links-col">
+          <div class="links-title">SEZIONE</div>
+          <a href="#">Lorem Ipsum</a>
+          <a href="#">Lorem Ipsum</a>
+          <a href="#">Lorem Ipsum</a>
+        </div>
+
+      </section>
+   </div>
+  <section class="footer-under">
+
+      <div class="footer-under-container">
+        <div class="footer-under-left">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </div>
+
+        <div class="footer-under-right">
+          <a href="#">Lorem Ipsum</a>
+          <a href="#">Lorem Ipsum</a>
+          <a href="#">Lorem Ipsum</a>
+          <a href="#">Lorem Ipsum</a>
+        </div>
 
       </div>
 
-      <div class="footer-main-desc">
-        <strong>Società1</strong> aiutata da <strong>Società2</strong>
-      </div>
-
-      <div class="footer-main-titles">
-
-        <img src="https://placehold.co/130x17/004aa6/ffffff" alt="">
-        <img src="https://placehold.co/185x17/004aa6/ffffff" alt="">
-        <img src="https://placehold.co/116x19/004aa6/ffffff" alt="">
-        <img src="https://placehold.co/142x17/004aa6/ffffff" alt="">
-        <img src="https://placehold.co/52x31/004aa6/ffffff" alt="">
-
-        <img src="https://placehold.co/102x17/gray/ffffff" alt="">
-        <img src="https://placehold.co/81x17/gray/ffffff" alt="">
-      </div>
-    </div>
-
-    <div class="footer-links">
-
-      <div class="links-col">
-        <div class="links-title">Sezione 1</div>
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
-
-      <div class="links-col">
-        <div class="links-title">Sezione 2</div>
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
-
-      <div class="links-col">
-        <div class="links-title">Sezione 3</div>
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
-
-    </div>
-  </div>
-  <div class="footer-under">
-
-    <div class="footer-under-container">
-      <div class="footer-under-left">
-        Testo celeste
-      </div>
-
-      <div class="footer-under-right">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-        <a href="#">Link 4</a>
-      </div>
-
-    </div>
-
-  </div>
+  </section>
 </footer>
 
 
