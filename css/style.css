@@ -503,6 +503,7 @@ body {
 
 .nav-right {
   width: 192px;
+  height: 100%;
   gap: 12px;
   font-size: 13px;
   color: #1b3967;
